@@ -1,0 +1,6 @@
+ffconcat version 1.0
+
+file 'https://s3-proxy.263nt.com/aspen-video/30000228_1_20210301085123_0.mp4?AWSAccessKeyId=05afb567f4a046cda599f0372b3e6081&Expires=1682402311&Signature=cUCQY4kjCDIdV9epDWhAQ4xv41k%3D'
+duration 10
+file 'https://s3-proxy.263nt.com/aspen-video/30000228_1_20210301085123_1.mp4?AWSAccessKeyId=05afb567f4a046cda599f0372b3e6081&Expires=1682402340&Signature=SM0Et1FXh28jiTqlEBw%2F4w34SRI%3D'
+duration 16
