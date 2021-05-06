@@ -22,8 +22,8 @@
 FF_ALL_ARCHS_IOS6_SDK="armv7 armv7s i386"
 FF_ALL_ARCHS_IOS7_SDK="armv7 armv7s arm64 i386 x86_64"
 FF_ALL_ARCHS_IOS8_SDK="armv7 arm64 i386 x86_64"
-
-FF_ALL_ARCHS=$FF_ALL_ARCHS_IOS8_SDK
+FF_ALL_ARCHS_IOS9_SDK="arm64 x86_64"
+FF_ALL_ARCHS=$FF_ALL_ARCHS_IOS9_SDK
 
 #----------
 UNI_BUILD_ROOT=`pwd`
@@ -41,7 +41,7 @@ echo_archs() {
     echo "FF_ALL_ARCHS = $FF_ALL_ARCHS"
 }
 
-FF_LIBS="libavcodec libavfilter libavformat libavutil libswscale libswresample libavdevice libavresample libpostproc"
+FF_LIBS="libavcodec libavfilter libavformat libavutil libswscale libswresample libavdevice libavresample"
 do_lipo_ffmpeg () {
     LIB_FILE=$1
     LIPO_FLAGS=
